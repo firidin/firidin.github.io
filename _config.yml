@@ -15,7 +15,6 @@
 # in the templates via {{ site.myvariable }}.
 title: "Kendime Notlar"
 title_separator: "|"
-subtitle: "Bilgi Paylaştıkça Çoğalır"
 name: "Altan Firidin"
 email: firidin@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
@@ -35,6 +34,9 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: "Europe/Istanbul" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+site:
+  locale: "tr-TR"
 
 include:
   - _pages
@@ -63,32 +65,21 @@ plugins:
 author:
   name   : "Altan Firidin"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://firidin.github.io"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/firidin"
+
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/firidin"
 
 defaults:
   # _posts
