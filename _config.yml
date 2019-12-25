@@ -35,8 +35,7 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: "Europe/Istanbul" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-site:
-  locale: "tr-TR"
+locale: "tr-TR"
 
 include:
   - _pages
@@ -64,7 +63,7 @@ plugins:
 
 author:
   name   : "Altan Firidin"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/altan-firidin-photo.jpg"
   bio    : "."
   links:
     - label: "Website"

@@ -86,7 +86,7 @@ metadata:
 ...
 ```
 
-### Referanslar
+## Referanslar
 
 > [Openshift Container Platform Architecture](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.1/html-single/architecture/index#digging-into-machine-config_architecture-rhcos)
 > [Red Hat OpenShift Container Platform 4 now defaults to CRI-O as underlying container engine](https://www.redhat.com/en/blog/red-hat-openshift-container-platform-4-now-defaults-cri-o-underlying-container-engine)
