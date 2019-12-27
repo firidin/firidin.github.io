@@ -1,6 +1,7 @@
 ---
 title: "Openshift Kaynak Tanımlarını Yedeklemek"
 date: 2019-12-27T13:00:00+03:00
+classes: wide
 categories:
   - Openshift
 tags:
