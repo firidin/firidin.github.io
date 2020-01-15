@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: "Kendime Notlar"
+title: "Notes To Myself"
 title_separator: "|"
 name: "Altan Firidin"
 email: firidin@gmail.com
@@ -34,8 +34,6 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: "Europe/Istanbul" # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-locale: "tr-TR"
 
 include:
   - _pages

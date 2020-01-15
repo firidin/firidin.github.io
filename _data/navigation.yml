@@ -1,9 +1,9 @@
 main:
-  - title: "Yazılar"
+  - title: "Posts"
     url: /posts/
-  - title: "Kategoriler"
+  - title: "Categories"
     url: /categories/
-  - title: "Etiketler"
+  - title: "Tags"
     url: /tags/
-  - title: "Hakkımda"
+  - title: "About"
     url: /about/

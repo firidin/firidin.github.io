@@ -1,6 +1,7 @@
 ---
 permalink: /about/
-title: "Hakkımda"
+title: "About Me"
 ---
 
-Bilgisayar mühendisi. Evli. 2 kız babası.
+Computer engineer. Married and have two kids. Lives in Istanbul, Turkey.
+

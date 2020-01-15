@@ -1,5 +1,5 @@
 ---
-title: "OutOfMemoryError: Unable To Create New Native Thread"
+title: "Updating pids_limit To Prevent 'OutOfMemoryError: unable to create new native thread'"
 date: 2019-12-24T17:00:00+03:00
 categories:
   - Openshift
@@ -7,7 +7,7 @@ tags:
   - openshift
   - machine config
 toc: true
-toc_label: "İçerik"
+toc_label: "Contents"
 ---
 
 Openshift 4.2 versiyonuna geçtikten sonra fazla thread oluşturan uygulamalarımız aşağıdaki hatayı alıp hiç başlamama veya başladıktan belirli bir zaman sonra hata sebebiyle ContainerNotReady durumuna geçmeye başladı. Bu sorun ile 3.11 versiyonun da karşılaşmamıştık.
@@ -28,7 +28,6 @@ Sorunun Openshift 4 versiyonu ile varsayılan olarak CRI-O container engine kull
 Bu değeri güncelleyebilmek için yeni bir MachineConfig veya ContainerRuntimeConfig tanımı eklemek gerekmektedir. 
 
 ## MachineConfig
-
 
 Openshift 4 web konsolunda Administrator perspektifine geçip "Compute" > "Machine Configs" sayfasından sadece /etc/crio/crio.conf dosyasının ihtiyacınıza göre güncellenmiş versiyonunu içeren aşağıdaki gibi bir tanımı eklemeniz yeterli olmaktadır. Tanım otomatik olarak Machine Config Operator (MCO) tarafından clustera uygulanmaktadır.
 
@@ -86,7 +85,7 @@ metadata:
 ...
 ```
 
-## Referanslar
+## References
 
 > [Openshift Container Platform Architecture](https://access.redhat.com/documentation/en-us/openshift_container_platform/4.1/html-single/architecture/index#digging-into-machine-config_architecture-rhcos)
 > [Red Hat OpenShift Container Platform 4 now defaults to CRI-O as underlying container engine](https://www.redhat.com/en/blog/red-hat-openshift-container-platform-4-now-defaults-cri-o-underlying-container-engine)

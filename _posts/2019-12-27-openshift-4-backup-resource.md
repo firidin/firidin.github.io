@@ -1,5 +1,5 @@
 ---
-title: "Openshift Kaynak Tanımlarını Yedeklemek"
+title: "Backup Openshift Resources"
 date: 2019-12-27T13:00:00+03:00
 classes: wide
 categories:
@@ -8,7 +8,7 @@ tags:
   - openshift
 ---
 
-Openshift kaynak tanımlarını yedeklemek için aşağıdaki scripti kullanabilirsiniz. 
+You can backup resource definitions using the script below. 
 
 ```bash
 #!/bin/bash 
@@ -63,5 +63,5 @@ export_other
 exit 0
 ```
 
-Yedekleme alacağınız dizin ve cluster erişim bilgilerini ortamınıza göre güncellemeyi unutmayınız.
+Update your export directory and cluster access information according to your environment.
 {: .notice--info}
